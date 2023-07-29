@@ -1,2 +1,1 @@
-# PremApp
-This is a full-stack premise application to maintain donations.
+# spring-azure-demo
