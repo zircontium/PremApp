@@ -23,6 +23,8 @@
 hs_err_pid*
 replay_pid*
 RBMDonationWebApp/node_modules
+RBMDonationWebApp/build
+RBMDonationWebApp/package-lock.json
 target/
 
 
