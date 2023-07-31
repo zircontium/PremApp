@@ -26,5 +26,5 @@ RBMDonationWebApp/node_modules
 RBMDonationWebApp/build
 RBMDonationWebApp/package-lock.json
 target/
-
+.idea
 
