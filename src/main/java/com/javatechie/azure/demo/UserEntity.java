@@ -10,13 +10,18 @@ import javax.persistence.*;
 @ToString
 @AllArgsConstructor
 @Entity
-@Table(name="USER")
+@Table(name="USER_TABLE")
 public class UserEntity {
     public UserEntity(){}
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Getter
+    @Setter
+    @Column(nullable = false)
+    private Long userId;
 
     @Getter
     @Setter
@@ -30,12 +35,7 @@ public class UserEntity {
 
     @Getter
     @Setter
-    @Column
-    private String middleName;
-
-    @Getter
-    @Setter
-    @Column
+    @Column(nullable = false)
     private String lastName;
 
     @Getter
@@ -48,6 +48,11 @@ public class UserEntity {
     @Setter
     @Column
     private String addressLine2;
+
+    @Getter
+    @Setter
+    @Column
+    private long pin;
 
     @Getter
     @Setter
